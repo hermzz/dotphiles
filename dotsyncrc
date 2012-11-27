@@ -22,8 +22,8 @@ dotsyncrc
 #bin:bin
 #ctags/ctags
 #curl/curlrc
-#git/gitconfig
-#git/gitignore
+git/gitconfig
+git/gitignore
 #git/gitattributes
 #git/tigrc
 #git/gitk
