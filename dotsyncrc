@@ -19,6 +19,7 @@
 # Uncomment examples below
 dotsyncrc
 #ack/ackrc
+bash/bash_aliases
 #bin:bin
 #ctags/ctags
 #curl/curlrc

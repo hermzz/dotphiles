@@ -1,0 +1,8 @@
+alias ga='git add'
+alias gpsh='git push'
+alias gpll='git pull'
+alias gc='git checkout'
+alias gs='git status'
+alias gm='git commit -m'
+alias gma='git commit -am'
+alias gb='git branch'
