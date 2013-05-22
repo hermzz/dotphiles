@@ -20,11 +20,13 @@
 dotsyncrc
 #ack/ackrc
 bash/bash_aliases
+bash/bashrc
 #bin:bin
 #ctags/ctags
 #curl/curlrc
 git/gitconfig
 git/gitignore
+git/git-prompt.sh
 #git/gitattributes
 #git/tigrc
 #git/gitk

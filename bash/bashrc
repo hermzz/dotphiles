@@ -1,0 +1,20 @@
+#
+# ~/.bashrc
+#
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+GIT_PS1_SHOWCOLORHINTS=1
+GIT_PS1_SHOWDIRTYSTATE=1
+GIT_PS1_SHOWSTASHSTATE=1
+GIT_PS1_SHOWUNTRACKEDFILES=1
+
+source ~/.git-prompt.sh
+
+alias ls='ls --color=auto'
+PS1="\[\e[1;34m\]\u\[\e[m\]\[\e[32m\]@\h \w\[\e[0m\]\$(__git_ps1)\[\e[32m\] \$\[\e[0m\] "
+
+. ~/.git-completion.sh
+. ~/.bash_aliases
+
