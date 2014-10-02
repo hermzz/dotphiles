@@ -46,6 +46,9 @@
   whitespace=fix,-indent-with-non-tab,trailing-space,cr-at-eol
   editor = nano
 
+[advice]
+  statusHints = false
+
 [alias]
   # branch
   b  = branch
@@ -83,13 +86,14 @@
   rom = rebase origin/master
 
   # commit
-  c      = commit -v
-  ca     = commit --all -v
-  cm     = commit --message
-  cam    = commit --all --message
-  camend = commit --amend --reuse-message HEAD
-  cundo  = reset --soft "HEAD^"
-  cp     = cherry-pick
+  c       = commit -v
+  ca      = commit --all -v
+  cm      = commit --message
+  cam     = commit --all --message
+  camend  = commit --amend --reuse-message HEAD
+  cundo   = reset --soft "HEAD^"
+  unstage = reset HEAD --
+  cp      = cherry-pick
 
   # diff
   d    = diff          # Diff working dir to index
