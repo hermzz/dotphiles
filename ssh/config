@@ -3,14 +3,15 @@
 #
 # Description:  Config for ssh client
 #
+# Authors:
+#   Ben O'Hara <bohara@gmail.com>
+#
 
 # Global Settings
 ForwardAgent yes
 #VisualHostKey yes
 HashKnownHosts no
 #ConnectTimeout 2
-ServerAliveCountMax 6
-ServerAliveInterval 30
 
 # My Hosts
 #Host hostname hostname.fqdn.com
@@ -20,6 +21,10 @@ ServerAliveInterval 30
 Host *
     #User username
     StrictHostKeyChecking ask
-    ControlMaster auto
-    ControlPath ~/.ssh/master/%r@%h:%p
+    ServerAliveCountMax 6
+    ServerAliveInterval 30
+    KeepAlive yes
+    #ControlMaster auto
+    #ControlPath ~/.ssh/master/%r@%h:%p
+    #ControlPersist 8h
 
