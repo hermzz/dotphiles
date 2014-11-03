@@ -60,7 +60,7 @@ git/git-prompt.sh
 #subversion
 #task/task
 #task/taskrc
-#tmux/tmux.conf
+tmux/tmux.conf
 #tmux/tmuxinator
 #vim/dotvim:.vim
 #vim/vimrc
