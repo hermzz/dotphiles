@@ -11,3 +11,5 @@ alias gd='git diff'
 alias gsub='git submodule'
 alias gsubi='git submodule init'
 alias gsubu='git submodule update'
+
+alias tmux='tmux -2'
