@@ -5,6 +5,8 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+export TERM=xterm-256color
+
 EDITOR=nano
 
 GIT_PS1_SHOWCOLORHINTS=1
