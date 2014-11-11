@@ -22,3 +22,6 @@ PS1="\[\e[1;34m\]\u\[\e[m\]\[\e[32m\]@\h \w\[\e[0m\]\$(__git_ps1)\[\e[32m\] \$\[
 . ~/.git-completion.sh
 . ~/.bash_aliases
 
+if [ -d "$HOME/.composer/vendor/bin" ]; then
+	export PATH="$PATH:$HOME/.composer/vendor/bin"
+fi
