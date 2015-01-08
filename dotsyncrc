@@ -31,7 +31,9 @@ git/git-prompt.sh
 #git/gitattributes
 #git/tigrc
 #git/gitk
-#gnupg
+gnupg/gpg.conf:.gnupg/gpg.conf
+gnupg/dirmngr.conf:.gnupg/dirmngr.conf
+gnupg/sks-keyservers.netCA.pem:.gnupg/sks-keyservers.netCA.pem
 #grc
 #input/editrc
 #input/inputrc
