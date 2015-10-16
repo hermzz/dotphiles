@@ -20,6 +20,15 @@ alias ls='ls --color=auto'
 PS1="\[\e[1;34m\]\u\[\e[m\]\[\e[32m\]@\h \w\[\e[0m\]\$(__git_ps1)\[\e[32m\] \$\[\e[0m\] "
 
 . ~/.git-completion.sh
+
+__git_complete ga _git_add
+__git_complete gpsh _git_push
+__git_complete gc _git_checkout
+__git_complete gm _git_commit
+__git_complete gf _git_fetch
+__git_complete gb _git_branch
+
+. ~/.git-flow-completion.bash
 . ~/.bash_aliases
 
 if [ -d "$HOME/.composer/vendor/bin" ]; then
