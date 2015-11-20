@@ -20,6 +20,9 @@
 [push]
    default = simple
 
+[fetch]
+   prune = true
+
 [color]
     branch = always
     diff = always
@@ -135,3 +138,7 @@
   rea = remote add
   rex = remote rm
   rem = remote rename
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
