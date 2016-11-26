@@ -22,6 +22,9 @@ dotsyncrc
 bash/bash_aliases
 bash/bashrc
 bash/docker-completion.sh:.docker-completion.sh
+bash/git-completion.bash:.git-completion.sh
+bash/git-flow-completion.bash:.git-flow-completion.bash
+bash/git-prompt.sh:.git-prompt.sh
 #bin:bin
 #ctags/ctags
 #cmus
