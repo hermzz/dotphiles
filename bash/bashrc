@@ -30,6 +30,7 @@ __git_complete gb _git_branch
 
 . ~/.git-flow-completion.bash
 . ~/.bash_aliases
+. ~/.docker-completion.sh
 
 if [ -d "$HOME/.composer/vendor/bin" ]; then
 	export PATH="$PATH:$HOME/.composer/vendor/bin"

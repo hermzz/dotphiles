@@ -21,6 +21,7 @@ dotsyncrc
 #ack/ackrc
 bash/bash_aliases
 bash/bashrc
+bash/docker-completion.sh:.docker-completion.sh
 #bin:bin
 #ctags/ctags
 #cmus
