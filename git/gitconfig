@@ -11,7 +11,7 @@
 [user]
   name = "Hermann Käser"
   email = "hermann.kaser@gmail.com"
-  signingkey = "7D559359"
+  signingkey = "34CB36F97D559359"
 
 [branch "master"]
     remote = origin
