@@ -13,3 +13,5 @@ alias gsubi='git submodule init'
 alias gsubu='git submodule update'
 
 alias tmux='tmux -2'
+alias cep4='wine ~/.wine/drive_c/Program\ Files/Google/Nik\ Collection/Color\ Efex\ Pro\ 4/Color\ Efex\ Pro\ 4.exe'
+alias pp3='find . -name "*.pp3" -exec rm {} +'
