@@ -18,6 +18,7 @@
 [files]
 # Uncomment examples below
 dotsyncrc
+aurget/aurgetrc:.config/aurgetrc
 #ack/ackrc
 bash/bash_aliases
 bash/bashrc
