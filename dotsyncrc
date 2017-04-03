@@ -31,6 +31,7 @@ bash/git-prompt.sh:.git-prompt.sh
 #ctags/ctags
 #cmus
 #curl/curlrc
+fontconfig/fonts.conf:.config/fontconfig/fonts.conf
 git/gitconfig
 git/gitignore
 git/git-prompt.sh
