@@ -35,6 +35,8 @@ __git_complete gr _git_rebase
 . ~/.bash_aliases
 . ~/.docker-completion.sh
 
+complete -C '/usr/bin/aws_completer' aws
+
 if [ -d "$HOME/.composer/vendor/bin" ]; then
 	export PATH="$PATH:$HOME/.composer/vendor/bin"
 fi
