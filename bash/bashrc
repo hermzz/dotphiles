@@ -29,6 +29,7 @@ __git_complete gc _git_checkout
 __git_complete gm _git_commit
 __git_complete gf _git_fetch
 __git_complete gb _git_branch
+__git_complete gr _git_rebase
 
 . ~/.git-flow-completion.bash
 . ~/.bash_aliases
