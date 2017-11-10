@@ -32,6 +32,7 @@ bash/git-prompt.sh:.git-prompt.sh
 #cmus
 #curl/curlrc
 fontconfig/fonts.conf:.config/fontconfig/fonts.conf
+gimp/prepare-negative.scm:.gimp-2.8/scripts/prepare-negative.scm
 git/gitconfig
 git/gitignore
 git/git-prompt.sh
