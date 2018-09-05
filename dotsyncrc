@@ -47,12 +47,15 @@ gnupg/sks-keyservers.netCA.pem:.gnupg/sks-keyservers.netCA.pem
 #input/editrc
 #input/inputrc
 #irssi
+#mpd/mpd.conf
 #mercurial/hgrc
 #mercurial/hgignore
 #mutt
 #mutt/muttrc
 #mutt/offlineimaprc
 #mysql/my.cnf
+#ncmpcpp/config
+#ncmpcpp/error.log
 #postgresql/psqlrc
 #python/pythonrc
 #python/pylintrc
