@@ -36,6 +36,7 @@ gimp/prepare-negative.scm:.gimp-2.8/scripts/prepare-negative.scm
 git/gitconfig
 git/gitignore
 git/git-prompt.sh
+git/git-semver:.git-semver/config
 #git/gitattributes
 #git/tigrc
 #git/gitk
