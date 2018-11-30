@@ -44,6 +44,7 @@ gnupg/gpg.conf:.gnupg/gpg.conf
 gnupg/dirmngr.conf:.gnupg/dirmngr.conf
 gnupg/sks-keyservers.netCA.pem:.gnupg/sks-keyservers.netCA.pem
 #grc
+i3:.config/i3
 #input/editrc
 #input/inputrc
 #irssi
@@ -56,6 +57,7 @@ gnupg/sks-keyservers.netCA.pem:.gnupg/sks-keyservers.netCA.pem
 #mysql/my.cnf
 #ncmpcpp/config
 #ncmpcpp/error.log
+polybar:.config/polybar
 #postgresql/psqlrc
 #python/pythonrc
 #python/pylintrc
