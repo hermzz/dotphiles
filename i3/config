@@ -5,33 +5,6 @@
 # this file and re-run i3-config-wizard(1).
 #
 
-# Colors set from ~/.Xresources
-#set_from_resource   $background background
-#set_from_resource   $foreground foreground
-#set_from_resource   $color0     color0
-#set_from_resource   $color1     color1
-#set_from_resource   $color2     color2
-#set_from_resource   $color3     color3
-#set_from_resource   $color4     color4
-#set_from_resource   $color5     color5
-#set_from_resource   $color6     color6
-#set_from_resource   $color7     color7
-#set_from_resource   $color8     color8
-#set_from_resource   $color9     color9
-#set_from_resource   $color10    color10
-#set_from_resource   $color11    color11
-#set_from_resource   $color12    color12
-#set_from_resource   $color13    color13
-#set_from_resource   $color14    color14
-#set_from_resource $color15 color15
-
-#client.background   $background
-#client.focused          $foreground $background $foreground $color2     $color2 
-#client.unfocused        $foreground $background $foreground $color4     $color4
-#client.focused_inactive $foreground $background $foreground $color4     $color4
-#client.urgent       $foreground $background $foreground $color4     $color4
-#client.placeholder $foreground $background $foreground $color4 $color4
-
 # i3 config file (v4)
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
@@ -58,6 +31,7 @@ font pango:Fira Code Retina 11
 for_window [title=" - KeePassXC$"] floating enable
 for_window [title="^Slack call"] floating enable
 for_window [title="^Blue Jeans$"] floating enable
+for_window [title="^Calculator$"] floating enable
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -168,9 +142,9 @@ bindsym $mod+Shift+0 move container to workspace $ws10
 bindsym Ctrl+Mod1+l exec betterlockscreen -l blur
 
 # Pulseaudio control
-bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% #increase sound volume
-bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5% #decrease sound volume
-bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute sound
+bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +5% #increase sound volume
+bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -5% #decrease sound volume
+bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle # mute sound
 
 # Media player controls
 bindsym XF86AudioPlay exec playerctl play-pause
@@ -249,4 +223,4 @@ exec --no-startup-id xcompmgr -n
 exec --no-startup-id nm-applet
 exec --no-startup-id nextcloud
 exec --no-startup-id blueman-applet
-exec dunst
+exec --no-startup-id keybase-gui

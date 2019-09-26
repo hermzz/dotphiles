@@ -27,6 +27,7 @@ bash/docker-completion.sh:.docker-completion.sh
 bash/git-completion.bash:.git-completion.sh
 bash/git-flow-completion.bash:.git-flow-completion.bash
 bash/git-prompt.sh:.git-prompt.sh
+bash/set-timezone.sh:.set-timezone.sh
 #bin:bin
 #ctags/ctags
 #cmus
@@ -74,6 +75,7 @@ polybar:.config/polybar
 #shell/urlview
 #ssh
 #subversion
+systemd:.config/systemd
 #task/task
 #task/taskrc
 tmux/tmux.conf

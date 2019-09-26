@@ -54,3 +54,5 @@ awsi() {
 
      aws --profile="${profile}" ec2 describe-instances | jq -r -f ~/.aws-instances.jq --arg search "${search}" | sort | column -t -s' '
 }
+
+source /usr/share/nvm/init-nvm.sh

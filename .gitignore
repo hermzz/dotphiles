@@ -39,3 +39,4 @@ mutt/smime/*
 mutt/certificates
 task/task/*.data
 
+env.sh

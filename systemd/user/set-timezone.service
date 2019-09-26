@@ -1,0 +1,10 @@
+[Unit]
+Description=Sets the timezone based on IP geolocation
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+ExecStart=/home/hermzz/.set-timezone.sh
+
+[Install]
+WantedBy=multi-user.target

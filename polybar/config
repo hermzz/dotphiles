@@ -24,7 +24,7 @@ foreground-alt = ${xrdb:foreground}
 primary = ${xrdb:color4}
 secondary = ${xrdb:color8}
 
-[bar/example]
+[bar/top]
 width = 100%
 height = 30
 radius = 0
@@ -47,7 +47,7 @@ module-margin-right = 2
 
 font-0 = fixed:pixelsize=10;1
 font-1 = "Roboto:size=10:weight=bold;2"
-font-2 = "Wuncon Siji:pixelsize=9;1"
+font-2 = "Siji:pixelsize=9;1"
 
 modules-left = i3
 modules-center = 
@@ -180,7 +180,7 @@ ramp-signal-foreground = ${colors.foreground-alt}
 
 [module/eth]
 type = internal/network
-interface = net0
+interface = enp62s0u1u3
 interval = 3.0
 
 format-connected-underline = #55aa55
@@ -198,7 +198,7 @@ format-disconnected =
 type = internal/date
 interval = 5
 
-date =
+date = %d/%m
 date-alt = " %Y-%m-%d"
 
 time = %H:%M
@@ -213,29 +213,12 @@ label = %date% %time%
 [module/pulseaudio]
 type = internal/pulseaudio
 
-format-volume = <label-volume> <bar-volume>
+format-volume = <label-volume>
 label-volume = VOL %percentage%%
 label-volume-foreground = ${root.foreground}
 
-label-muted = 🔇 muted
+label-muted = %{T3}🔇%{T-} muted
 label-muted-foreground = #666
-
-bar-volume-width = 10
-bar-volume-foreground-0 = #55aa55
-bar-volume-foreground-1 = #55aa55
-bar-volume-foreground-2 = #55aa55
-bar-volume-foreground-3 = #55aa55
-bar-volume-foreground-4 = #55aa55
-bar-volume-foreground-5 = #f5a70a
-bar-volume-foreground-6 = #ff5555
-bar-volume-gradient = false
-bar-volume-indicator = |
-bar-volume-indicator-font = 2
-bar-volume-fill = ─
-bar-volume-fill-font = 2
-bar-volume-empty = ─
-bar-volume-empty-font = 2
-bar-volume-empty-foreground = ${colors.foreground-alt}
 
 [module/battery]
 type = internal/battery
