@@ -24,14 +24,14 @@
    prune = true
 
 [color]
-    branch = always
-    diff = always
-    grep = always
-    interactive = always
-    pager = true
-    showbranch = auto
-    status = auto
-    ui = always
+    #branch = always
+    #diff = always
+    #grep = always
+    #interactive = always
+    #pager = true
+    #showbranch = auto
+    #status = auto
+    ui = true
 
 [color "interactive"]
     error = red bold
