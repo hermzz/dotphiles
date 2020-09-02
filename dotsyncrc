@@ -22,6 +22,7 @@ aurget/aurgetrc:.config/aurgetrc
 #ack/ackrc
 bash/bash_aliases
 bash/bashrc
+bash/bash_profile
 bash/bash_completion:.bash_completion.sh
 bash/docker-completion.sh:.docker-completion.sh
 bash/git-completion.bash:.git-completion.sh

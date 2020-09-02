@@ -216,11 +216,10 @@ mode "$mode_system" {
 }
 bindsym Ctrl+Mod1+Delete mode "$mode_system"
 
-exec --no-startup-id xinput set-prop 14 306 1
+exec --no-startup-id /home/hermzz/.config/i3/scripts/configure-touchpad.sh
 exec --no-startup-id /home/hermzz/.config/i3/scripts/set-background.sh
 exec_always --no-startup-id setxkbmap -layout gb,es -option grp:shifts_toggle
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
-exec --no-startup-id xinput set-prop 14 300 1
 exec --no-startup-id xcompmgr -n
 exec --no-startup-id nm-applet
 exec --no-startup-id nextcloud
