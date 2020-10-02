@@ -32,12 +32,14 @@ for_window [title=" - KeePassXC$"] floating enable
 for_window [title="^Slack call"] floating enable
 for_window [title="^Blue Jeans$"] floating enable
 for_window [title="^Calculator$"] floating enable
+for_window [title="Microsoft Teams Notification" class="microsoft teams - preview"] floating enable
+for_window [title="Microsoft Teams Notification" class="Microsoft Teams - Preview"] floating enable 
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec i3-sensible-terminal
+bindsym $mod+Return exec alacritty
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -220,7 +222,7 @@ exec --no-startup-id /home/hermzz/.config/i3/scripts/configure-touchpad.sh
 exec --no-startup-id /home/hermzz/.config/i3/scripts/set-background.sh
 exec_always --no-startup-id setxkbmap -layout gb,es -option grp:shifts_toggle
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
-exec --no-startup-id xcompmgr -n
+exec --no-startup-id picom -b
 exec --no-startup-id nm-applet
 exec --no-startup-id nextcloud
 exec --no-startup-id blueman-applet

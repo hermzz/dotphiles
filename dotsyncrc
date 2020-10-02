@@ -59,6 +59,7 @@ i3:.config/i3
 #mysql/my.cnf
 #ncmpcpp/config
 #ncmpcpp/error.log
+picom:.config/picom
 polybar:.config/polybar
 #postgresql/psqlrc
 #python/pythonrc
