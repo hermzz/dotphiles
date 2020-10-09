@@ -33,8 +33,9 @@ bash/set-timezone.sh:.set-timezone.sh
 #ctags/ctags
 #cmus
 #curl/curlrc
-fontconfig/fonts.conf:.config/fontconfig/fonts.conf
-gimp/prepare-negative.scm:.gimp-2.8/scripts/prepare-negative.scm
+dunst:.config/dunst
+fontconfig:.config/fontconfig
+gimp:.gimp-2.8/script
 git/gitconfig
 git/gitignore
 git/git-prompt.sh
